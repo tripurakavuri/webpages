@@ -26,33 +26,11 @@ var z= document.myForm.email.value;
 
 var password=document.myForm.password.value;
 var confirm_password=document.myForm.con_password.value;
-if(password==""){
-  alert("password should be entered");
-  return false;
-}
-else if(confirm_password==""){
-  alert("confirm your password");
-  return false;
-}
-else if (password!=confirm_password) {
+if (password!=confirm_password) {
   alert("passwords don't match");
   return false;
 }
-var date=document.myForm.date.value,
-    month=document.myForm.month.value,
-    year=document.myForm.year.value;
-if (date==""){
-      alert("Please select date");
-      return false;
-    }
-    else if (month==""){
-      alert("Please select month");
-      return false;
-    }
-    else if (year==""){
-      alert("Please select Year");
-      return false;
-    }
+
 }
   </script>
     <link rel="stylesheet" type="text/css" href="/practice/practice1.css">
@@ -61,32 +39,36 @@ if (date==""){
   <body>
   <div class="container text">
   <form name="myForm" method="post" onsubmit="return validateForm()">
+  <form method="post">
   <h1 style="text-align: center;color:#134;">Sign-UP Form</h1>
   <div class="form-group row">
-  <label class="col-12 col-form-label"><span style="color: red;">* </span>Name</label>
+  <label class="col-12 col-form-label">Name</label>
   <div  class="col-6">
  <input id="name" type="text" class="form-control" placeholder="First Name" name="fname">
  </div>
  <div class="col-6">
  	<input id="name" type="text" class="form-control" placeholder="Last Name" name="lname">
  </div>
- <label class="col-12 col-form-label"><span style="color: red;">* </span>Email Address</label>
+ <label class="col-12 col-form-label">Email Address</label>
  <div class="col-12">
  	<input type="email" class="form-control" name="email">
  </div>
-
-<label class="col-12 col-form-label"><span style="color: red;">* </span>Create Password</label>
-<div class="col-12">
- 	<input type="password" class="form-control" name="password" maxlength="8" >
+ <label class="col-12 col-form-label">Phone Number</label>
+ <div class="col-12">
+ <input type="text" name="number" class="form-control">
  </div>
- <label class="col-12 col-form-label"><span style="color: red;">* </span>Confirm Password</label>
+<label class="col-12 col-form-label">Create Password</label>
 <div class="col-12">
-  <input type="password" class="form-control" name="con_password" maxlength="8" >
+ 	<input type="password" class="form-control" name="password" maxlength="8">
  </div>
- <label class="col-12 col-form-label"><span style="color: red;">* </span>Birth Date</label>
+ <label class="col-12 col-form-label">Confirm Password</label>
+<div class="col-12">
+  <input type="password" class="form-control" name="con_password" maxlength="8">
+ </div>
+ <label class="col-12 col-form-label">Birth Date</label>
 <div class="col-4">
-	<select class="form-control" name="date">
-    <option value="">Date</option>
+	<select class="form-control">
+    <option selected>Date</option>
     <option value="1">1</option>
     <option value="2">2</option>
     <option value="3">3</option>
@@ -122,8 +104,8 @@ if (date==""){
   </select>
  </div>
 <div class="col-4">
- <select class="form-control" name="month">
-   <option value="">Month</option>
+ <select class="form-control">
+   <option selected>Month</option>
    <option value="January">January</option>
    <option value="February">February</option>
    <option value="March">March</option>
@@ -139,8 +121,8 @@ if (date==""){
     </select>
   </div>	
   <div class="col-4">
-    <select class="form-control" name="year">
-    <option value="">Year</option>
+    <select class="form-control">
+    <option selected>Year</option>
       <option value="1980">1980</option>
       <option value="1981">1981</option>
       <option value="1982">1982</option>
@@ -167,12 +149,15 @@ if (date==""){
   </div>
 </div>
   
+    <input type="checkbox"  name="name">
+    <span>I agree to the </span> <a href="">Terms and Conditions</a><span> and  </span> <a href="">Private Policy</a><br><br>
   
   <div class="form-group">
   <button type="submit" class="btn btn-primary">Submit</button>
 
   </div>
   		
+  </form>
   </form>
 
 

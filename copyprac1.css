@@ -1,0 +1,80 @@
+.text{
+	background-color: #fed;
+	margin-top: 5%;
+	padding: 2%;
+	width: 100%;
+	margin:5% auto;
+}
+.container{
+	width:40% !important;
+}
+#h{
+	align-content: center;
+	color:white;
+}
+
+
+button{
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+	#h{
+	align-content: center;
+	color:white;
+}
+
+.text{
+	background-color: #fed;
+	margin-top: 5%;
+	padding: 2%;
+}
+.container{
+	width:60% !important;
+}
+
+button{
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+}
+@media only screen and (max-width: 360px) {
+	#h{
+	align-content: center;
+	color:white;
+}
+
+.text{
+	background-color: #fed;
+	margin-top: 5%;
+	padding: 2%;
+}
+.container{
+	width: 100% !important;
+}
+
+button{
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+}
+.form1{
+	background-color: #fed;
+	width:25%;
+	border-color: 1px solid #ddd;
+	margin:5% auto;
+	text-align: center;
+}
+#name1{
+	margin-top:2%;
+	padding: 2%;
+
+}
+#name2{
+	margin-top:5%;
+	padding: 2%;
+}

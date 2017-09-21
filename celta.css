@@ -70,8 +70,13 @@
 	display: inline-block;margin-right: 5px;
 	padding: 0;padding-right: 5px;
 }
-.header-nav-ul li:hover{
+.header-nav-ul li a,.header-nav-menubar li a{
+	color: #333;
+	text-decoration: none;
+}
+.header-nav-ul li a:hover{
 	color: orange;
+	text-decoration: none;
 }
 .header-nav-menubar{
 	max-height: 100px;
@@ -90,10 +95,45 @@
 	display: inline-block;
 	margin-right: 20px;
 	padding: 0;
+	position: relative;
 }
-.header-nav-menubar li:hover{
+.header-nav-menubar li a:hover{
 	color: orange;
+	text-decoration: none;
 }
+
+
+.header-nav-menubar ul ul{
+		display: none;
+	position: absolute;
+
+}
+
+.header-nav-menubar ul ul li{
+		display: block;
+		background-color: #333;
+		padding-left: 20px;
+		margin-left: -45px;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		width: 200px;
+		z-index: 1000;
+
+	}
+.header-nav-menubar ul ul li a{
+	color: white;
+	line-height: 10px;
+	height: 20px;
+	padding-top: 12px;
+	margin: 0 auto;
+
+}
+.header-nav-menubar ul li:hover > ul{
+	display: block;
+
+}
+
+
 .contact{
 	margin-left: 5px;
 	margin-right: 5px;

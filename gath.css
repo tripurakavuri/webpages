@@ -199,6 +199,7 @@ section
 	max-height: 400px;
 	padding: 45px;
 	width: 450px;
+	height: 200px;
 	position: absolute;
 	z-index: 100;
 	top: 0;
@@ -207,8 +208,8 @@ section
 
 .banner-content h1	
 {
-	font-size: 30px;
-	margin-top: 45px;
+	font-size: 24px;
+	margin-top: 5px;
 	margin-left: -2px;
 }
 .col-md-5{

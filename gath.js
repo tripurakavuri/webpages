@@ -1,14 +1,14 @@
 
 function validateForm(event) {
 
-    var phone = document.form.phone.value,
-    email = document.form.email.value,
-    fname = document.form.fname.value,
-    lname=document.form.lname.value,
-    gender=document.form.gender.value,
-    selected1=document.form.country.value,
-    selected2=document.form.countryI.value,
-    year=document.form.year.value, 
+    var phone = document.form.phone.value;
+        email = document.form.email.value,
+        fname = document.form.fname.value,
+        lname=document.form.lname.value,
+        gender=document.form.gender.value,
+        selected1=document.form.country.value,
+        selected2=document.form.countryI.value,
+        year=document.form.year.value, 
     
     tomatch = /^\d{3}-\d{3}-\d{4}$/,
     emailMatch =/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
