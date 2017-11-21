@@ -1,0 +1,90 @@
+d559bc5c-0140-4bbd-9036-afcdb9ba2435,Navdeep,Kaur,Ms.,HR manager,HR,Ericsson,20f7bc55-ff35-4385-bb1f-871497775d01,1234567890,46107190000,Cold Call,1
+002e10c6-d7ba-4a9e-89ca-40a516f7efe9,Neha,Oberoi,Ms.,HR manager,HR,Ericsson,20f7bc55-ff35-4385-bb1f-871497775d01,1234567891,46107190000,Email,1
+7088b031-ba2b-4e04-855d-f60e766ac102,Zohreh,Aghaei,Mr.,CSI Project Manager,Technical,Ericsson,20f7bc55-ff35-4385-bb1f-871497775d01,1234567892,46107190000,Campaign,1
+8c8a095c-11f1-4857-a451-c8cd4b355a6a,Ignacio,Toro,Mr.,Marketing & Product Manager,Marketing,Electrolux,8d25eea7-e78d-4dfd-b54d-4b3bbbc256d4,1234567893,4687386000,Existing Customer,1
+ccb47834-daa4-462e-b2b8-1ea554a39f21,Lucia,Chierchia,Ms.,Open Innovation Director,Management,Electrolux,8d25eea7-e78d-4dfd-b54d-4b3bbbc256d4,1234567894,4687386000,Self Generated,1
+3812fc38-0793-4731-b28b-ca19d4a60c34,Giulia,Brusati,Ms.,HR manager,HR,Electrolux,8d25eea7-e78d-4dfd-b54d-4b3bbbc256d4,1234567895,4687386000,Partner,1
+957454ec-1e74-4b31-a92e-6c51265068e4,Raj,Dhirej,Mr.,Operations Manager,Technical,BMW,3b5882c2-4e77-4453-bd1f-0cc95c4c6032,1234567896,18001022269,Public Relations,1
+9e8fef28-ab3b-4da6-98ac-a71b050c06c5,Chris,Engel,Mr.,IT Consultant,Service,BMW,3b5882c2-4e77-4453-bd1f-0cc95c4c6032,1234567897,18001022269,Direct Mail,1
+d8b2e4db-1339-427c-81ba-6d303348b81d,Alonso,Martinez,Mr.,Recruiter,HR,BMW,3b5882c2-4e77-4453-bd1f-0cc95c4c6032,1234567898,18001022269,Conference,1
+ba86c5d7-7800-474c-9301-17acd15531a8,Pierre,Erasmus,Mr.,Vice President,Management,SAP,80cb6005-7b69-4cc0-9b97-6e1e871245ad,1234567899,4906227,Trade Show,1
+72f1583e-6497-4693-8f40-81ee15a1726c,Jennifer,Morgan,Ms.,Executive Board Member,Management,SAP,80cb6005-7b69-4cc0-9b97-6e1e871245ad,1234567900,4906227,Word of mouth,1
+d299a7e0-4891-429b-ad23-c36650365e44,Jonathan,Becher,Mr.,Senior Executive,Management,SAP,80cb6005-7b69-4cc0-9b97-6e1e871245ad,1234567901,4906227,Web Site,1
+4af6dd0c-37b3-4649-b28a-a9bf00de124c,Nauman,Khan,Mr.,General Manager,Sales,Nestle,9b2427b2-4906-47ae-bb0f-92b8c88be1dd,1234567902,18002252270,Other,1
+f52bcb92-e42a-4cba-8167-6c86efdb271a,Shweta,Munshi,Ms.,Marketing Director,Marketing,Nestle,9b2427b2-4906-47ae-bb0f-92b8c88be1dd,1234567903,18002252270,Cold Call,1
+58a09b27-6b89-4b11-b9e8-4c3e6675e23c,Riham,Nasr,Ms.,Brand Manager,Marketing,Nestle,9b2427b2-4906-47ae-bb0f-92b8c88be1dd,1234567904,18002252270,Email,1
+71491173-b832-406d-a7a8-a6009c2d51f9,Florian,Neukart,Mr.,Principal Scientist,Research,Volkswagen,4ffe925d-746c-4199-8838-77de5399bfd6,1234567905,18883274236,Campaign,1
+c9c6b472-ca91-4956-985b-267f242bcce7,Rhonda,Austin,Ms.,Corporate Recruiter,HR,Volkswagen,4ffe925d-746c-4199-8838-77de5399bfd6,1234567906,18883274236,Existing Customer,1
+7eb17a24-e4d1-4ce6-9549-5681cd91ce10,Michael,Awdish,Mr.,General Manager,Marketing,Volkswagen,4ffe925d-746c-4199-8838-77de5399bfd6,1234567907,18883274236,Self Generated,1
+bb4639a9-995d-461a-bbef-444fe8fdfa9a,Vinita,Ramtri,Ms.,"VP,Controls Transformation",Technical,Barclays,c78e7fe6-692b-48ec-9406-b3c0d7eaf22d,1234567908,2260001550,Partner,1
+4ed555c4-b3a3-49de-885a-73e82e6b4efa,Zahid,Mustafa,Mr.,Country Director,Retail,Barclays,c78e7fe6-692b-48ec-9406-b3c0d7eaf22d,1234567909,2260001550,Public Relations,1
+9aa0eec8-9e7a-4f2a-b524-869a71967b82,Chris,Sole,Mr.,Head of Internet Banking,Banking,Barclays,c78e7fe6-692b-48ec-9406-b3c0d7eaf22d,1234567910,2260001550,Direct Mail,1
+c3a925e2-f938-4537-82ca-beaf2edc357f,Drew,Slaven,Mr.,Vice President,Marketing,Mercedes Benz,239e9583-c68e-4c99-9201-f869760d55a5,1234567911,18003676372,Conference,1
+b92fc736-2d15-40b4-8240-9e7b67312c94,Ellie,Brown,Ms.,Sales executive,Sales,Mercedes Benz,239e9583-c68e-4c99-9201-f869760d55a5,1234567912,18003676372,Trade Show,1
+fb2173a1-3b2c-474f-8139-868fa6175f7a,Abbi,Trotz,Mr.,Talent Acquisition,Management,Mercedes Benz,239e9583-c68e-4c99-9201-f869760d55a5,1234567913,18003676372,Word of mouth,1
+e5d9f44e-15a8-4e28-844a-b250beba28af,Susan,Peters,Ms.,Senior Vice President,HR,GE,2b99c00c-c163-43b2-a202-59cb1a3f6f80,1234567914,2033732211,Web Site,1
+de27b81b-087e-4f00-a817-026bd76bb981,Linda,Boff,Ms.,CMO,Support,GE,2b99c00c-c163-43b2-a202-59cb1a3f6f80,1234567915,2033732211,Other,1
+2194fcb3-60cd-4327-8d74-35f0dac765f1,Lowell,McAdam,Mr.,Board Member,Management,GE,2b99c00c-c163-43b2-a202-59cb1a3f6f80,1234567916,2033732211,Cold Call,1
+fd9ac6a7-a9cb-4824-a8e8-5708811c0af8,Michael,Dell,Mr.,CEO and Chairman,Management,Dell,5fcf6c3d-db4a-4fc9-831d-37f2ce2f95ff,1234567917,5123384400,Email,1
+a25ef9d7-e798-4a0f-a68d-d8f81d69573f,Sneha,Reddy,Ms.,Recruiter,Recruiting,Dell,5fcf6c3d-db4a-4fc9-831d-37f2ce2f95ff,1234567918,5123384400,Campaign,1
+a7d93f7b-4c68-4c8d-8de3-6920a314f68a,Jasmin,Kaur,Ms.,HR Manager,HR,Dell,5fcf6c3d-db4a-4fc9-831d-37f2ce2f95ff,1234567919,5123384400,Self Generated,1
+a678e265-c65b-4ef8-9bc8-bf23611d0123,Aniara,Kaur,Ms.,Chief Exexcutive Officer,Management,Canvilicious,93fe76c6-3711-43c8-b56e-807645b29954,1234567920,915865452112,Cold Call,1
+f1613425-1cd8-4d80-8d2b-7e76edec4c71,Divya,M,Ms.,Digital Marketig Manager,Marketing,Canvilicious,93fe76c6-3711-43c8-b56e-807645b29954,1234567921,915865452112,Email,1
+57bc02a3-7aef-4c96-9451-2be3029ad75e,Dinesh,Kumar,Mr.,Freelance Creative Director,Marketing,Canvilicious,93fe76c6-3711-43c8-b56e-807645b29954,1234567922,915865452112,Campaign,1
+c01dea08-347f-4853-8f50-69b2f6d745e0,Manikanta,Sai Krishna,Mr.,Network Engineer,Technical,Idea Cellular,996a555e-85a4-4bfb-86d0-954ada4d6b53,1234567923,912365478523,Existing Customer,1
+973a07d3-1b64-4a70-9c58-f6d8348f12c1,Syed,Munawer,Mr.,CS Core Switch Manager,Technical,Idea Cellular,996a555e-85a4-4bfb-86d0-954ada4d6b53,1234567924,912365478523,Self Generated,1
+35aae08b-8397-49dd-969e-8492018edea5,RamaKrishna,Arigala,Mr.,Sr. Manager,Management,Idea Cellular,996a555e-85a4-4bfb-86d0-954ada4d6b53,1234567925,912365478523,Partner,1
+debc4788-96a4-462c-b0bb-fff5114bef31,Giri,Kondaveeti,Mr.,General Manager,Management,First Pass Semiconductor,0f56efe6-4932-4e15-b084-02ed402f7e04,1234567926,914040258899,Public Relations,1
+525257ad-f83f-40fb-b744-90502655c2f1,Narendra,Kuppili,Mr.,Sr IC Layout Design Engineer,Technical,First Pass Semiconductor,0f56efe6-4932-4e15-b084-02ed402f7e04,1234567927,914040258899,Direct Mail,1
+e661c4c5-806a-480b-a81c-36ecdd7dfaaf,Srinivasa,Kakumanu,Mr.,CEO,Management,First Pass Semiconductor,0f56efe6-4932-4e15-b084-02ed402f7e04,1234567928,914040258899,Conference,1
+a54aecf8-2de3-4f5a-be1d-c6fc71e867c3,Sandeep,Jain,Mr.,Dupty General Manager,Testing,IntexTechnologies,0d58d38b-0c4f-4217-8410-ac9316f6fe08,1234567929,18601085555,Trade Show,1
+80e55fe3-3d90-4312-9846-658d91b7d501,Amit,Saxena,Mr.,Director,Management,IntexTechnologies,0d58d38b-0c4f-4217-8410-ac9316f6fe08,1234567930,18601085555,Word of mouth,1
+e50f1548-4525-4c9f-99ef-dfb061d2134c,mamta,Jha,Ms.,Assistant Manager,Testing,IntexTechnologies,0d58d38b-0c4f-4217-8410-ac9316f6fe08,1234567931,18601085555,Web Site,1
+38ad351d-ed65-49d1-aa83-d73580153e38,Mrinal,Murdia,Mr.,Senior Consultant,Consulting,Oracle Financial Services,4ce00673-f696-4d07-b0b6-8e6825e4f68c,1234567932,18523654752,Other,1
+ab3ce103-f5e0-42bc-b2c9-851a4a1d8f98,Raghavendran,R,Mr.,Senior Financial Support,Finance,Oracle Financial Services,4ce00673-f696-4d07-b0b6-8e6825e4f68c,1234567933,18523654752,Cold Call,1
+a652db3c-0e05-43b2-b308-5ff000a34f7d,Nidhi,Rai,Ms.,Financial Manager,Finance,Oracle Financial Services,4ce00673-f696-4d07-b0b6-8e6825e4f68c,1234567934,18523654752,Email,1
+78564ee9-106c-48c6-a665-59e64c37b9a2,Raghuram,Kura,Mr.,Human Resource Manager,HR,Larsen & Tourbo Infotech,544b2cb1-9995-4bf3-b477-936f76c4aae5,1234567935,18654754123,Campaign,1
+d2ae36e8-563f-4dab-b136-ac8b377b1de6,Deepa,Oommen,Ms.,HR Recrcuiter,HR,Larsen & Tourbo Infotech,544b2cb1-9995-4bf3-b477-936f76c4aae5,1234567936,18654754123,Existing Customer,1
+849009f8-de47-4098-8141-4e7ce3d7b42d,Vani,Singla,Ms.,HR Trainee,HR,Larsen & Tourbo Infotech,544b2cb1-9995-4bf3-b477-936f76c4aae5,1234567937,18654754123,Self Generated,1
+2e9701d4-0c17-4d65-b371-9f563094e8da,Christopher,D Souza,Mr..,Human Resource Manager,HR,Mphasis,9b05d348-e67a-4662-a876-726beb64961b,1234567938,915245698552,Partner,1
+87a6d268-abe8-4043-8941-6c406fa2e27d,Mudrika,Bhardwaj,Ms.,Talent Development and Acquisition,Technical,Mphasis,9b05d348-e67a-4662-a876-726beb64961b,1234567939,915245698552,Public Relations,1
+0fc79d18-fad4-4823-93cf-a879c613fac0,Nithaya,Parthasarathy,Ms.,Manager,Management,Mphasis,9b05d348-e67a-4662-a876-726beb64961b,1234567940,915245698552,Direct Mail,1
+597ab5df-c6a7-4626-8f70-831a6e5a6b1a,Lokesh,Kumar,Ms.,Associate Manager,Management,MindTree,f7f54605-1473-493f-a095-7311fdc75440,1234567941,912223354444,Conference,1
+b390f984-be5b-4c2d-b099-f0c31f200e60,Ananda,Krishna,Ms.,Senior Project Manager,Production,MindTree,f7f54605-1473-493f-a095-7311fdc75440,1234567942,912223354444,Trade Show,1
+55e04e77-3c63-49cf-a15b-6086ae2c5a8e,Sumit,Bhowmik,Ms.,Software solution Provider,Service,MindTree,f7f54605-1473-493f-a095-7311fdc75440,1234567943,912223354444,Word of mouth,1
+1b701e61-0d40-4de4-aee3-899e9a17b835,Pawan,Shetty,Mr.,Human Resource Manager,HR,Cognizant,4dab0917-9846-42e8-a422-37d6631bcd75,1234567944,915232525252,Web Site,1
+0f09e4b1-740b-404c-a5fa-3125e98037a6,Nigama,Karanam,Ms.,Human Resource Manager,HR,Cognizant,4dab0917-9846-42e8-a422-37d6631bcd75,1234567945,915232525252,Other,1
+a4be1b95-38ab-4531-a83e-8604f9f37c7a,Simson,Arputharaj,Ms.,Senior HR Manager,HR,Cognizant,4dab0917-9846-42e8-a422-37d6631bcd75,1234567946,915232525252,Cold Call,1
+90be3e18-c3e1-45c9-855c-c261b01219de,Vamsi,P,Mr.,GIS Engineer,Technical,Cyient,8f15b1f0-0507-4a9c-9836-ef1bfb8f7d77,1234567947,914455663322,Email,1
+2973f150-eea7-4a3c-8d9e-2d6409c02de7,Ramesh,Shetty,Mr.,GIS Consultant,Consulting,Cyient,8f15b1f0-0507-4a9c-9836-ef1bfb8f7d77,1234567948,914455663322,Campaign,1
+732b192c-0d06-4ce1-bfb8-0f38e594a3d1,Prem,D Souza,Mr.,Aerospace Design Engineer,Technical,Cyient,8f15b1f0-0507-4a9c-9836-ef1bfb8f7d77,1234567949,914455663322,Self Generated,1
+34504c24-c47d-4666-a5e3-2c58562fc70a,Sujay,Sen,Mr.,Executive -Vice President,Production,Larsen & Turbo Infotech Ltd,e18d8156-2c15-4047-b838-9f709d74bc3a,1234567950,2261774200,Cold Call,1
+a98385c7-145d-4c46-9132-912f888271c5,Uday,Gharpure,Mr.,Executive – Delivery Transformation,Production,Larsen & Turbo Infotech Ltd,e18d8156-2c15-4047-b838-9f709d74bc3a,1234567951,2261774200,Email,1
+95f37748-dd48-4686-9271-48169ec9942f,Ravindranath,K,Mr.,Senior Executive Vice President,Management,Larsen & Turbo Infotech Ltd,e18d8156-2c15-4047-b838-9f709d74bc3a,1234567952,2261774200,Campaign,1
+a8b967af-db55-4a49-9846-edab31a73c5a,Anirban,Choudhury,Mr.,Senior sales Executive,Sales,Mc Graw-Hill Education,59dd153d-ba1a-41bf-a132-6bacc1d26320,1234567953,2261773569,Existing Customer,1
+00d0ee57-8fb5-43c2-86fb-ac667e0c2726,Choe,Kang,Mr.,Executive-Chief,Management,Mc Graw-Hill Education,59dd153d-ba1a-41bf-a132-6bacc1d26320,1234567954,2261773569,Self Generated,1
+57eb53f4-5ae4-40d5-8d8f-6d775415f29d,Sally,Shankland,Mr.,Executive Chief,Management,Mc Graw-Hill Education,59dd153d-ba1a-41bf-a132-6bacc1d26320,1234567955,2261773569,Partner,1
+a959e705-0c25-48c2-ad94-7963763d7976,John,Yesudas,Mr.,Account Executive,Accounts,Dell Information Technology & Services,68ce92ab-d4e2-4d0a-83ca-3d06168126a4,1234567956,2261774790,Public Relations,1
+d8470591-60b3-4dc1-be21-1f3bffbf1ce6,Sakshi,Diwan,Ms.,Account Executive,Accounts,Dell Information Technology & Services,68ce92ab-d4e2-4d0a-83ca-3d06168126a4,1234567957,2261774790,Direct Mail,1
+ccef5c08-d6cb-4fe8-ae81-4e09a573e5e8,Shruthi,Sonal,Ms.,Senior Marketing Executive,Marketing,Dell Information Technology & Services,68ce92ab-d4e2-4d0a-83ca-3d06168126a4,1234567958,2261774790,Conference,1
+6988b561-70e9-4150-b150-ead2e8e3eaec,Sajjad Hussain,Mohammed,Mr.,Sales Executive,Sales,Apple Inc,9338580c-92e2-4762-9263-c484e6d2cdf9,1234567959,18001035875,Trade Show,1
+deb9beaa-8f2f-4b3f-93e1-9e16bfac616b,parmita,choudhury,Ms.,Digital Marketing Executive,Marketing,Apple Inc,9338580c-92e2-4762-9263-c484e6d2cdf9,1234567960,18001035875,Word of mouth,1
+566a0c9e-c18f-43e7-ab64-3eb3a501ca2a,Charan,R.N,Mr.,Business development Executive,Management,Apple Inc,9338580c-92e2-4762-9263-c484e6d2cdf9,1234567961,18001035875,Web Site,1
+eddaa4a4-a3d4-44e2-87f9-5ac5d3b30c8e,Seema,Gupta,Ms.,Executive -Talent Development,Management,Crest Animation Studio,c61c222a-afe5-4f4a-ac38-e48267774939,1234567962,18001036484,Other,1
+7b83e453-5759-4fb1-a043-1f28f512f850,Keyrun,kumar,Mr.,Senior Marketing Executive,Marketing,Crest Animation Studio,c61c222a-afe5-4f4a-ac38-e48267774939,1234567963,18001036484,Cold Call,1
+1cb1b76b-f5d8-4369-8b7b-0042d7886089,Jayanath,Shaiwale,Mr.,Senior Accountant Executive,Accounts,Crest Animation Studio,c61c222a-afe5-4f4a-ac38-e48267774939,1234567964,18001036484,Email,1
+dd7a6d47-6ae1-486a-af33-186bcf7aaefb,Aravind,Natarajan,Mr.,Marketing Executive,Marketing,Zoho,6f59f3eb-7e74-47b4-8075-3a7660e3c9d0,1234567965,18001035345,Campaign,1
+dac8eae5-a574-4e59-a51b-1fed90f48302,Ahana,Vissa,Mr.,Marketing Executive and public relation,Marketing,Zoho,6f59f3eb-7e74-47b4-8075-3a7660e3c9d0,1234567966,18001035345,Existing Customer,1
+eb07345c-499f-4874-862a-4ea7318774a4,Rodrigo,Vaca,Mr.,Chief Executive,Management,Zoho,6f59f3eb-7e74-47b4-8075-3a7660e3c9d0,1234567967,18001035345,Self Generated,1
+e6046d62-b1a0-4fa9-949a-d3b497fe92f5,Priya,Arun,Ms.,Executive-Chief,Management,3i-Infotech ltd,cc879b9f-f475-42e0-9123-457c9d473c9b,1234567968,18004252067,Partner,1
+f73160cf-6c46-4760-b981-ca7307055a6e,Babita,Kapoor,Ms.,Sales Executive,Sales,3i-Infotech ltd,cc879b9f-f475-42e0-9123-457c9d473c9b,1234567969,18004252067,Public Relations,1
+a05f3722-4818-41c7-85d0-f1b513985a94,Vijayalakshmi,Rajesh,Ms.,Executive Director,Management,3i-Infotech ltd,cc879b9f-f475-42e0-9123-457c9d473c9b,1234567970,18004252067,Direct Mail,1
+44bd0056-448e-4db4-8637-6b54df567f34,Sayali Sona,Wadekar,Ms.,HR Executive,HR,Godrej Infotech ltd,9a6a5308-4cf0-467a-b519-d32c2c031df3,1234567971,18004256970,Conference,1
+3bbf05de-9423-4f85-9183-c8ddecef4c15,Riya,Bindal,Ms.,Senior Executive,Production,Godrej Infotech ltd,9a6a5308-4cf0-467a-b519-d32c2c031df3,1234567972,18004256970,Trade Show,1
+c1635b9d-abee-4a72-bd66-689121a4fcc0,Nisaba,V,Ms.,Executive Chairperson,Management,Godrej Infotech ltd,9a6a5308-4cf0-467a-b519-d32c2c031df3,1234567973,18004256970,Word of mouth,1
+2cf6f627-46d1-43b0-838b-5612a6175cff,Cryan,Lamkin,Mr.,Executive Vice President,Management,Adobe,d19e76c9-a9b5-4532-86cc-7d9abeeb128e,1234567974,18004252067,Web Site,1
+7545559e-91e2-460e-8aa5-7abcefdc271f,Alexandra,Veh,Mr.,Executive Accountant,Accounts,Adobe,d19e76c9-a9b5-4532-86cc-7d9abeeb128e,1234567975,18004252067,Other,1
+526c994a-9c5b-47b3-b5ef-ec676d997cda,Mala,Sharma,Ms.,Office Executive,Recruiting,Adobe,d19e76c9-a9b5-4532-86cc-7d9abeeb128e,1234567976,18004252067,Cold Call,1
+a70b08cc-dff5-481d-b295-861167469842,Ashish Mrinal,Choudhury,Mr.,Executive,Recruiting,Snapdeal,2fa7ecfc-3e75-4794-a0b9-a3ca5563e6af,1234567977,8002752273,Email,1
+f3b044d2-eb05-4465-be89-8a693ec88f00,Awanish Singh,Banafer,Mr.,Executive seller,Sales,Snapdeal,2fa7ecfc-3e75-4794-a0b9-a3ca5563e6af,1234567978,8002752273,Campaign,1
+664e93f0-c110-431e-912f-c000192c6b9f,Sachin,Jain,Mr.,Senior Executive,Management,Snapdeal,2fa7ecfc-3e75-4794-a0b9-a3ca5563e6af,1234567979,8002752273,Self Generated,1
