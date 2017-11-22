@@ -1,0 +1,120 @@
+
+#page
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 1000px;
+	width: 1200px;
+}
+#header
+{
+	width:1200px;
+	height:125px;
+	background-color: red;
+
+}
+#left
+{
+	width:300px;
+	height: 125px;
+	float: left;
+}	
+#right
+{
+	width: 900px;
+	float:right;
+	font-style: 50px;
+	font-family: sans-serif;
+	height: 125px;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 2px;
+}
+#rio
+{
+	width:300px;
+	height: 125px;
+	float: left;
+}
+
+#menubar
+{
+	width:1200px;
+	height: 75px;
+	background-color: rgb(200 200 200);
+	text-align: center;
+	display: block;
+}
+
+#menu3,#menu4,#menu5,#menu6,#menu7,#menu8
+{
+	width: 150px;
+	float:left;
+}
+#menu1
+{
+width: 200px;
+	float:left;
+}
+#menu2
+{
+	width: 100px;
+	float:left;
+}
+#banner
+{
+	width:100%;
+	height: 350px;
+	background-color: rgb(230 230 230);
+}
+#olympic
+{
+
+	width:100%;
+	height: 350px;
+}
+#bodydiv
+{
+	height: 400px;
+	width: 1200px;
+}
+#lftmenu
+{
+	background-color: rgb(150 150 150);
+	height: 400px;
+	width: 200px;
+	float:left;
+}
+#tennis,#badminton,#athletics,#swimming,#archery,
+#shooting,#basketball,#wrestling,#boxing,#others
+{
+	height: 40px;
+	width: 200px;
+}
+#body
+{
+	background-color: rgb(200 200 200);
+	height: 400px;
+	width: 1200px;
+}
+#para1,#para2
+{
+	font-size: 15px;
+	font-family: sans-serif;
+}
+#para1
+{
+	padding-top: 50px;
+}
+#para2
+{
+	padding-top: 20px;
+}
+#footer
+{
+	width:1200px;
+	height:50px;
+	background-color: teal;
+	vertical-align: middle;
+	text-align: center;
+}

@@ -1,0 +1,187 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#page
+{
+	margin:0 auto;
+	height: 1000px;
+	width: 1200px;
+}
+#header
+{
+	width:1200px;
+	height:125px;
+	background-color: indianred;
+
+}
+#left
+{
+	width:300px;
+	height: 125px;
+	float: left;
+}	
+#right
+{
+	width: 900px;
+	font-family: arial;
+	height: 125px;
+	vertical-align: middle;
+	text-align: center;
+	float: right;
+	font-size: 60px;
+	line-height: 125px;
+	color: darkslategray;
+	font-weight: bolder;
+}
+
+#rio
+{
+	width:300px;
+	height: 125px;
+	float: left;
+}
+
+#menubar
+{
+	width:1200px;
+	height: 75px;
+	margin: auto;
+	background-color: #3c3E94;
+
+}
+#menubar ul
+{
+	list-style: none;
+margin: auto;
+}
+#menubar ul li
+{
+	width: 150px;
+	height: 75px;
+	line-height: 65px;
+	text-align: center;
+	float: left;
+	color: white;
+	position: relative;
+	margin:auto;
+	font-size: 25px;
+}
+#menubar ul li:hover{
+	background-color: #388222;
+}
+
+
+#menubar ul ul{
+		display: none;
+	position: absolute;
+}
+
+#menubar ul ul li{
+		display: block;
+		height: 40px;
+		margin: 0 auto;
+		padding-top: 12px;
+		background-color: teal;
+		line-height: 30px;
+
+	}
+
+#menubar ul li:hover > ul{
+	display: block;
+
+}
+
+#menubar ul ul ul{
+margin-left: 140px;
+top:0px;
+}
+
+#banner
+{
+	width:100%;
+	height: 350px;
+	margin: 0 auto;
+}
+
+#olympic
+{
+
+	width:100%;
+	height: 350px;
+	margin: 0 auto;
+}
+
+#bodydiv
+{
+	height: 400px;
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+
+#lftmenu
+{
+	background-color: grey;
+	height: 400px;
+	width: 200px;
+	float:left;
+	text-align: center;
+}
+
+#tennis,#badminton,#athletics,#swimming,#archery,
+#shooting,#basketball,#wrestling,#boxing,#others
+{
+	height: 35px;
+	width: 200px;
+	line-height: 35px;
+	font-size: 20px;
+	padding-top: 5px;
+	color: maroon;
+	font-weight: bolder;
+}
+#lftmenu > :hover{
+	background-color: slateblue;
+}
+
+#bodypart
+{
+	background-color: slategrey;
+	height: 400px;
+	width: 1000px;
+	float: right;
+}
+#para1,#para2
+{
+	font-size: 22px;
+	font-family: sans-serif;
+	padding: 10px;
+}
+#para1
+{
+	padding-top: 20px;
+}
+#para2
+{
+	padding-top: 10px;
+}
+#para1:first-letter{
+		font-size:50px;
+		color: blue;
+	}
+#para2:first-letter{
+	font-size:50px;
+		color: deeppink;
+}
+#footer
+{
+	width:1200px;
+	height:50px;
+	background-color: teal;
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+	font-size: 25px;
+
+}

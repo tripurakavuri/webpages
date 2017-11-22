@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>testttt</title>
+<script>
+
+function validateForm(event) {
+
+    var phone = document.getElementById("phonenumber").value,
+    email = document.getElementById("email").value,
+    name = document.getElementById("name").value,
+    address = document.getElementById("address").value,
+    tomatch = /^\d{3}-\d{3}-\d{4}$/,
+    emailMatch = /^\[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Z]{2,4}$/,
+    errors = [];
+
+    if (!phone){
+      errors.push("The Phone Number is required.");
+    } else if (!tomatch.test(phone)){
+      errors.push("The phone number must be formated as follows: XXX-XXX-XXXX.");
+    }
+
+    if (!name){
+      errors.push("The Name is required");
+    }
+
+    if (!email){
+      errors.push("The email is required.");
+    } else if (!emailMatch.test(email)){
+      errors.push("The email must be formated as follows: name@domain.com.");
+    }
+
+    if (!address){
+      errors.push("The Address is required.");
+    }
+
+    if (errors.length) {
+      event.preventDefault();
+      alert(errors.join("\n"));
+    }
+
+}
+</script>
+</head>
+<body>
+<form enctype="multipart/form-data" method="POST" id="form1" onSubmit="validateForm(event)">
+ <label for="Name">Name:</label><br />
+ <input size="100%" type="text" name="name" id="name"><br>
+ <label for="Email">E-mail:</label><br />
+ <input size="100%" type="text" name="email" id="email" value=""><br />
+ <label for="Phone">Phone Number:</label><br />
+ <input size="100%" type="text" name="phonenumber" id="phonenumber" value=""><br />
+ <label for="Address">Shipping Address:</label><br />
+ <input size="100%" type="text" name="address" id="address" value=""><br />
+
+ <label for="comment">Input Comments/Questions:</label><br />
+ <input size="100%" type="text" name="comment" value=""><br><br>
+  Please choose a file: <br />
+ <input name="uploaded" type="file" /><br />
+ <br />
+
+ <input size="100%" type="submit" value="Submit" /><br />
+ <input size="100%" type="reset" value="Reset">
+</form>
+</body>
+</html>
