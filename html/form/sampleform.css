@@ -1,0 +1,21 @@
+.container-text{
+	background-image: url(/webpages/sampleforms/pic.jpg); 
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 80%;
+	mar
+}
+h1{
+	text-align: center; padding-top: 30px;
+}
+.form-group-row fieldset{
+	border: 1px solid white;
+	margin: 20px;
+	padding: 20px;
+	font-family: 'dancing script', cursive;
+  font-size: 20px;
+  font-weight: 700;
+}
+fieldset legend{
+	color: Indianred; text-align: left;
+}
