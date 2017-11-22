@@ -1,0 +1,626 @@
+/*
+Theme Name: xtop.me
+Description: xtop.me Simple Gallery
+Author: xtop.me
+Version: 1.5
+*/
+
+
+
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: "Karla", "Helvetica", Arial, Sans-Serif;
+  line-height: 1.612;
+  -webkit-font-smoothing: antialiased;
+}
+
+#attachment {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+.clear {
+  clear: both;
+}
+
+#single {
+  text-align: center;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 10px 0 0;
+}
+
+.headinghome {
+  margin: 0.83em 0;
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-size: 1.5em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0.83em 0;
+  text-transform: uppercase;
+  font-size: 1.75em;
+}
+
+#crumb {
+  text-align: left;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+/*----- Menu Outline -----*/
+ 
+.menu {
+    background-color: #eaeef4;
+    text-align: center;
+    width:100%;
+}
+ 
+.menu ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#365899;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#f5f5f5;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    text-align: center;
+    display:inline-block;
+    position:relative;
+    font-size:15px;
+}
+ 
+.menu > ul > li > a {
+    padding: 10px 30px;
+    display:inline-block;
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#365899;
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:100%;
+    position:absolute;
+    top:100%;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    background:#365899;
+}
+ 
+.sub-menu li {
+    padding: 10px;
+    display:block;
+    font-size:16px;
+}
+
+.sub-menu li a {
+  color: #f5f5f5;
+}
+
+.sub-menu li a:hover {
+    color: #365899;
+}
+ 
+.sub-menu li:hover, .sub-menu .current-item {
+    background-color: #f5f5f5;
+}
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  margin: 0;
+  padding: 0;
+}
+
+.social-icon li{
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 1%;
+}
+
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+#index {
+  text-align: center;
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+#gallery li {
+  display: inline-block;
+  width: 40%;
+  max-height: 220px; 
+  list-style: none;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+}
+
+#gallery li a h3 {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  font-weight: normal;
+  color: #bdc3c7
+}
+
+.container {
+  height: 110px;
+  overflow: hidden;
+}
+
+.container img {
+  max-width:170%;
+  height: auto;
+  margin-top: -15%;
+  margin-left: -15%;
+}
+
+
+
+/**********************************
+SIDEBAR
+***********************************/
+
+#secondary {
+  text-align: left;
+}
+
+#secondary ul {
+  padding: 0 0 0 10px;
+}
+
+.side-box {
+  list-style: none;
+  width: 95%;
+  padding: 1.5%;
+  display: inline-block;
+}
+
+.side-box h3 {
+  font-size: .85em;
+  font-weight: normal;
+  padding-left: 45%;
+}
+
+.imgcont {
+  width: 40%;
+  height: 90px;
+  float:left;
+  overflow: hidden;
+}
+
+.imgcont img {
+  max-width: 140%;
+  height: auto;
+}
+
+
+
+/**********************************
+PAGINATION
+***********************************/
+
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  clear: both;
+}
+
+.pagination a {
+  color: #27ae60;
+}
+
+.pagination > li {
+  display: inline;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #bdc3c7;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+}
+
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #bdc3c7;
+  background-color: #f5f5f5;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #949da4;
+  cursor: default;
+  background-color: #cfcfcf;
+}
+
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  cursor: not-allowed;
+  background-color: #162024;
+}
+
+
+
+/**********************************
+SINGLE
+***********************************/
+
+.img-responsive{
+  width: 90%;
+}
+
+#single a p {
+  font-weight: normal;
+  color: #bdc3c7;
+}
+
+.gallery {
+  height: 110px;
+  width: 150px;
+  margin: 1% 1%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.gallery a img {
+  width: 170%;
+  max-width: 150%;
+  height: auto;
+  margin-top: -10%;
+  margin-left: -15%;
+}
+
+.pict-desc {
+  width: 70%;
+  font-size: .9em;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 1% 0;
+}
+
+.post-btn {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.post-btn h2 {
+  display: inline-block;
+  width: 70%;
+  margin: 2% 0 0 0;
+  font-size: 1em;
+}
+
+.btn {
+  background-color: #bdc3c7; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: .7em;
+}
+
+.r {
+  float:right;
+}
+
+.l {
+  float: left;
+}
+
+.attimg {
+  height: auto;
+  width: 90%;
+}
+
+#attachment p {
+  text-align: justify;
+  padding: 0 3%;
+}
+
+
+/**********************************
+SINGLE
+***********************************/
+
+/**********************************
+RELATED
+***********************************/
+
+.relimg {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.relimg li {
+  display: inline-block;
+  width: 40%;
+  max-height: 220px; 
+  list-style: none;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+}
+
+.relimg li a h3 {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  font-weight: normal;
+  color: #bdc3c7
+}
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* green header */
+header {
+  background: #d6ddea;
+}
+
+/* logo text */
+h1, h2 {
+  color: #000;
+}
+
+/* links */
+a {
+  color: #365899;
+}
+
+
+
+@media screen and (min-width: 580px) {
+
+  .container {
+    height: 130px;
+  }
+
+  .post-btn h2 {
+    font-size: 1.2em;
+  }
+
+  .btn {
+    padding: 13px 15px;
+    font-size: .8em;
+  }
+
+}
+
+
+
+@media screen and (min-width: 480px) {
+  
+  /**********************************
+  HOME
+  ***********************************/
+
+  #gallery li {
+    width: 28.3333%;
+  }
+  
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+
+  .relimg li {
+    width: 28.3333%;
+  }
+  
+  .relimg li:nth-child(4n) {
+    clear: left;
+  }
+
+}
+
+
+
+
+
+@media screen and (min-width: 760px) {
+  
+  .container {
+    height: 170px;
+  }
+
+  .post-btn h2 {
+    font-size: 1.2em;
+  }
+
+  .btn {
+    padding: 20px 20px;
+    font-size: .8em;
+  }
+
+  #primary {
+    width: 75%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 25%;
+    float: right;
+  }
+
+  #gallery li {
+    width: 23.3333%;
+  }
+
+  .relimg li {
+    width: 23.3333%;
+  }
+
+}
+
+
+
+@media screen and (min-width: 660px) {
+
+  /**********************************
+  HEADER
+  ***********************************/
+
+  #logo {
+    margin-left: 5%;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 21px;
+  }
+  
+  h2 {
+    font-size: 21px;
+  }
+  
+  header {
+    margin-bottom: 40px;
+  }
+
+  .headinghome {
+    margin:0;
+  }
+
+  h2 {  
+    margin:0;
+  }
+
+  .menu > ul > li {
+    font-size: 17px;
+  }
+
+}
+.colcol {
+  font-weight: 400;
+  color: #365899;
+}
+
+.beautfont {
+  letter-spacing: 0.2em;
+}

@@ -1,0 +1,106 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#page
+{
+	margin:0 auto;
+	height: 1200px;
+	width: 1000px;
+    background-image: url(/webpages/sampleforms/pic.jpg);
+}
+
+form
+{
+	margin:0 auto;
+	height: 1500px;
+	width: 800px;
+
+}
+h2
+{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+fieldset
+{
+	font-family: 'dancing script', cursive;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 60px;
+}
+
+#star
+{
+	color: red;
+}
+#box
+{
+	width: 400px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+#button
+{
+	width: 50px;
+	height: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#list
+{
+	width: 400px;
+	height: 50px;
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#check
+{
+	float: left;
+	padding-right: 20px;
+}
+#f2,#f3
+{
+	font-family: 'dancing script', cursive;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 30px;
+}
+#send,#clear
+{
+	float: left;
+}
+#s1,#s2
+{
+	font-size: 20px;
+	font-family: arial;
+	height: 60px;
+	width: 200px;
+}
+#s1:hover
+{
+	background-color: indianred;
+	color: white;
+}
+
+#s2:hover
+{
+	background-color: blue;
+	color: white;
+}
+#s2
+{
+	margin-left: 390px;
+}

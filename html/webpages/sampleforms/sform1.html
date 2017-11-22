@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>User-Input-Form</title>
+<link rel="stylesheet" href="/webpages/sampleforms/sform1.css">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Dancing+Script:400,700" rel="stylesheet">
+</head>
+
+<body>
+<div id="page">
+<form>
+<h2>User Input Form</h2>
+<fieldset>
+	<legend>Personal Particular</legend>
+
+	<span id="star" >* </span>Name:<br> <input id="box" type="text" name="name" required="Please fill in this field"><br><br>
+
+	<span id="star" >* </span>Password:<br> <input id="box" type="Password" name="pswrd" required="Please fill in this field"><br><br>
+
+	<span id="star" >* </span>Gender
+	  <input id="button" type="radio" name="gender" value="male" required="Please fill in this field"> Male
+  	  <input id="button" type="radio" name="gender" value="female"> Female
+  	  <br><br>
+
+  	  <span id="star" >* </span>Age:<br>
+  	  <select id='list' required="Please fill in this field">
+	  <option value= 'blank'></option>
+	  <option value= '15-20'>15-20 years</option>
+	  <option value='20-30'>20-30 years</option>
+	  <option value='>30'>>30 years</option>
+	  </select>
+
+</fieldset >
+
+<fieldset id=f2>
+	<legend>Languages</legend><br>
+	<span id="check">
+	<input type="checkbox">&nbsp Java</span>
+	<span id="check">
+	<input type="checkbox">&nbsp C/C++</span>
+	<span id="check">
+	<input type="checkbox">&nbsp C#</span>
+	</fieldset>
+
+	<fieldset id=f3>
+	<legend>Instruction</legend><br>
+	<textarea rows='10' cols='35' name="inst" placeholder="Enter your instruction here..."></textarea>
+	</fieldset><br>
+
+	<span id="send"><input id="s1" type="submit" name="send" value="SEND"></span>
+	<span id="clr"><input id="s2" type="submit" name="clear" value="CLEAR"></span>
+	</form>
+	</div>
+	</body>
+	</html>
