@@ -1,0 +1,29 @@
+CREATE TABLE IF NOT EXISTS `userlogin` (
+  `user_id` varchar(36) NOT NULL,
+  `user_name` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `name` varchar(200) DEFAULT NULL,
+  `email` varchar(200) DEFAULT NULL,
+  `contact_no` text,
+  `about` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+ 
+--
+-- Indexes for dumped tables
+--
+ 
+--
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`user_id`);
+ 
+--
+-- AUTO_INCREMENT for dumped tables
+--
+ 
+--
+-- AUTO_INCREMENT for table `user`
+--
+ALTER TABLE `user`
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT;

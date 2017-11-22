@@ -1,0 +1,21 @@
+ body
+ { 
+ font: 14px sans-serif; 
+ }
+ .wrapper
+ {
+  width: 350px;
+   padding: 20px;
+ }
+ h2
+ {
+ color: blue;
+ font: 24px sans-serif;
+/*
+ border: 1px solid red;
+*/
+ }
+ .form-group
+ {
+ margin-top:10px;
+ }
