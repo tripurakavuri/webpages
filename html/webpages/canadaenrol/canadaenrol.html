@@ -1,0 +1,586 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+<title>Canada-enrol</title>
+<script type="text/javascript">
+	function validateNumber(){
+		if(isNAN){
+			alert("please enter number")
+		}
+	}
+
+</script>
+<link rel="stylesheet" href="/webpages/canadaenrol/canadaenrol.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+
+</head>
+
+<body >
+<div id="page">
+
+   <div id=header>
+		<div id=logo>
+			<img id="logo1" src="/webpages/tels/els-logo.png" alt="els-logo">
+		</div>
+
+		<div id=nav>
+		<div id=top>
+		 <span id=top1>
+		 <div id="gogle_translate_element"></div>
+
+		 <form method="post">
+		 <select>
+			<option value= 'list'>Select a language</option>
+			<option value= 'english'>English</option>
+			<option value= 'french'>French</option>
+			<option value= 'portugese'>Portugese</option>
+			<option value= 'spanish'>Spanish</option>
+		 </select>
+		 </form>
+		 </span>	
+		 <span id=top2>
+		 <ul>
+		 <li>ABOUT US</li>
+		 <li>ASK A QUESTION</li>
+		 <li>DOWNLOAD BROCHURE</li>
+		 <li>MY ELS</li>
+		 <li>APPLY</li>
+		 </ul>
+		 </span>
+		</div>
+
+		<div id=bottom>
+		<ul>
+		<li>DESTINATIONS & CENTERS</li>
+		<li>ENGLISH PROGRAMS</li>
+		<li>PARTNER UNIVERSITIES</li>
+		<li>COUNSELOR CONNECT</li>
+		</ul>
+		</div>
+ </div>
+ </div>
+
+	<section id="sec1">
+	 <div id=banner><img id="img1" src="/webpages/canadaenrol/hero.jpg" alt="banner" width="1400" height="400"></div>
+	 <div id="bannertop">
+	 <h1>Apply Today to ELS/Canada!</h1>
+	 <h3>Fill out the form below to start your enrolment!</h3>
+	 </div>
+	 </section>
+
+	 <section id="sec2">
+	 <form>
+	 <h1>Canada Enroll</h1>
+	 <fieldset>
+	 	<legend>1. Personal Details</legend>
+	 	<hr>
+
+	 	<div id="row">
+	 	<span id="star" >* </span>Title<br>
+  	  <input id="box" type="text" name="title" value="" onblur="validateTitle(this.value)" >
+  	  </div>
+
+  	  <div id="row">
+  	  <span style="float: left;">
+		<span id="star" >* </span>First Name<br>
+	  <input id="box1" type="text" name="firstname" value=""></span>
+	  <span style="float: left;"><span id="star" >* </span>Last Name/ Family Name<br>
+	  <input id="box1" type="text" name="firstname" value=""></span>
+	  </div>
+
+	  <div id="row">
+	  <span style="float: left;">
+	  <span id="star" >* </span>Gender<br>
+  	  <select id='list'>
+	  <option value= 'blank'></option>
+	  <option value= 'male'>Male</option>
+	  <option value='female'>Female</option>
+	  </select></span>
+	  <span style="float: left;"><span id="star" >* </span>Email<br>
+  	  <input id="box1" type="email" name="email"></span>
+	  </div>
+
+	  <div id="row">
+  	  <span style="float: left;">
+	  Phone Number<br>
+	  <input id="box1" type="text" name="phone" value="" onblur="validateNumber()"></span>
+	  <span style="float: left;">Mobile Phone Number<br>
+	  <input id="box1" type="text" name="mobile" value=""></span>
+	  </div>
+
+	  <div id="row">
+	  <span style="float: left;">Country of Birth<br>
+  	  <select id='list'>
+	  <option value= 'blank'></option>
+	  <option value= 'india'>India</option>
+	  <option value='china'>China</option>
+	  <option value='japan'>Japan</option>
+	  <option value='Singapore'>Singapore</option>
+	  <option value='Germany'>Germany</option></option>
+	  <option value='France'>France</option>
+	  <option value= 'none'>none</option>
+	  </select></span>
+	  <span style="float: left;">Nationality<br>
+  	  <select id='list'>
+	  <option value= 'blank'></option>
+	  <option value= 'india'>India</option>
+	  <option value='china'>China</option>
+	  <option value='japan'>Japan</option>
+	  <option value='Singapore'>Singapore</option>
+	  <option value='Germany'>Germany</option></option>
+	  <option value='France'>France</option>
+	  <option value= 'none'>none</option>
+	  </select></span>
+	  </div>
+
+	  <div id="row">
+	 	<span style="float: left;"><span id="star" >* </span>Passport Number<br>
+  	  <input id="box" type="text" name="title" value=""></span>
+  	  </div>
+
+  	  <div id="row">
+  	  <span style="float: left;">
+		<span id="star" >* </span>First Language<br>
+	  <input id="box1" type="text" name="firstlang" value="" ></span>
+	  <span style="float: left;">Other Languages Spoken<br>
+	  <input id="box1" type="text" name="otherlang" value=""></span>
+	  </div>
+
+	  <div id="row">
+	 	<span style="float: left;"><span id="star" >* </span>Date of Birth<br>
+  	  <input id="box" type="text" name="dob" value=""  ></span>
+  	  </div>
+	 </fieldset>	 	
+
+	 <fieldset>
+	 	<legend>Home Address</legend>
+	 	<hr>
+
+	 	<div id="row">
+  	  <span style="float: left;">
+		<span id="star" >* </span>Address 1<br>
+	  <input id="box1" type="text" name="add1" value="" ></span>
+	  <span style="float: left;">Address 2<br>
+	  <input id="box1" type="text" name="add2" value=""></span>
+	  </div>
+
+	  <div id="row">
+  	  <span style="float: left;">
+		<span id="star" >* </span>City<br>
+	  <input id="box1" type="text" name="city" value=""></span>
+	  <span style="float: left;">
+	  <span id="star" >* </span>State/Province<br>
+	  <input id="box1" type="text" name="state" value=""></span>
+	  </div>
+
+	  <div id="row">
+  	  <span style="float: left;">
+		<span id="star" >* </span>Post Code<br>
+	  <input id="box1" type="text" name="pc" value="" ></span>
+	  <span style="float: left;">Country<br>
+  	  <select id='list'>
+	  <option value= 'blank'></option>
+	  <option value= 'india'>India</option>
+	  <option value='china'>China</option>
+	  <option value='japan'>Japan</option>
+	  <option value='Singapore'>Singapore</option>
+	  <option value='Germany'>Germany</option></option>
+	  <option value='France'>France</option>
+	  <option value= 'none'>none</option>
+	  </select></span>
+	  </div>
+	</fieldset>
+
+	<fieldset>
+	 	<legend>Canada Address (if known)</legend>
+	 	<hr>
+
+	 	<div id="row">
+  	  <span style="float: left;">Address 1<br>
+	  <input id="box1" type="text" name="add1" value="" ></span>
+	  <span style="float: left;">Address 2<br>
+	  <input id="box1" type="text" name="add2" value=""></span>
+	  </div>
+
+	  <div id="row">
+  	  <span style="float: left;">City<br>
+	  <input id="box1" type="text" name="cityc" value="" ></span>
+	  <span style="float: left;">State/Province<br>
+	  <input id="box1" type="text" name="statec" value=""></span>
+	  </div>
+
+	  <div id="row">
+  	  <span style="float: left;">Post Code<br>
+	  <input id="box1" type="text" name="pc" ></span>
+	  <span style="float: left;">Canada<br>
+  	  <select id='list'>
+	  <option value= 'canada'>Canada</option>
+	  </select></span>
+	  </div>
+	  </fieldset>
+
+	  <fieldset>
+	 	<legend>2. Course Selection</legend>
+	 	<hr>
+
+	  <div id="row">
+	  <span style="float: left;">
+	  <span id="star" >* </span>City Of Interest<br>
+  	  <select id='biglist'>
+	  <option value= 'blank'></option>
+	  <option value= 'male'>Toronto</option>
+	  <option value='female'>Vancouver</option>
+	  </select></span>
+	  </div>
+
+	  <div id="row">
+	  <span style="float: left;">
+	  <span id="star" >* </span>When would you like to start your course?<br>
+  	  <input id="box" type="text" name="pc" >
+  	  </span>
+  	  </div>
+
+  	  <div id="row">
+	  <span style="float: left;">
+	  <span id="star" >* </span>How many weeks would you like to study?<br>
+  	  <select id='biglist'>
+	  <option value= 'blank'></option>
+	  <option value= '1w'>1 Week</option>
+	  <option value='5w'>5 Weeks</option>
+	  <option value='10w'>10 Weeks</option>
+	  <option value='20w'>20 Weeks</option>
+	  <option value='25'>25 Weeks</option>
+	  <option value='30'>30 Weeks</option>
+	  <option value='50'>50 Weeks</option>
+	  </select></span>
+  	  </div>
+
+  	  <div id="row">
+  	  <span style="float: left;">What is your current level of English?<br>
+  	  <select id='biglist'>
+	  <option value= 'blank'></option>
+	  <option value= 'l'>Low</option>
+	  <option value='m'>Medium</option>
+	  <option value='h'>High</option>
+	  <option value='vh'>Very High</option>
+	  </select>
+	  </span>
+	  </div>
+
+	  <div id="row">
+	  <span style="float: left;line-height: 20px;">Please give details of any English language examination results<br>(e.g. IELTS, Cambridge, TOEFL, TOEIC, PTE Academic etc.)<br>
+	  <textarea id="txtarea" name="texara" rows="10" cols="49"></textarea>
+	  </span>
+	  </div>
+
+	  <div id="row">
+	  <span style="float: left;">Highest level of education achieved:<br>
+  	  <select id='biglist'>
+	  <option value= 'blank'></option>
+	  <option value= 'hg'>High School (Government)</option>
+	  <option value='hp'>High School (Private)</option>
+	  <option value='colg'>College</option>
+	  <option value='univ'>University</option>
+	  </select>
+	  </span>
+	  </div>
+
+	  <div id="row">
+	  <span style="float: left;">Which program/s do you wish to study in?<br><br>
+	  <input id="check" type="checkbox">&nbsp;English for Academic Purposes<br>
+	  <input id="check" type="checkbox">&nbsp;Semi-Intensive<br>
+	   <input id="check" type="checkbox">&nbsp;IELTS<sup>&trade;</sup> Preparation (minimum level requirement) - Vancouver only<br>
+	    <input id="check" type="checkbox" >&nbsp;TOEFL iBT<sup>&reg;</sup> Preparation (minimum level requirement) - Vancouver only<br>
+	    <input id="check" type="checkbox">&nbsp;English for Business (minimum level requirement)<br>
+	    </span>
+	    </div>
+	    <br><br><br>
+
+	   <div id="row">
+	  <span style="float: left;margin-top: 20px;">Will you undertake further study in Canada after your English course?<br>
+  	  <select id='biglist' >
+	  <option value= 'blank'></option>
+	  <option value= 'y'>YES</option>
+	  <option value='no'>NO</option>
+	  </select>
+	  </span>
+	  </div>
+
+	  <div id="row">
+	  <span style="float: left;">How did you hear about ELS?<br>
+  	  <select id='biglist'>
+	  <option value= 'blank'></option>
+	  <option value= 'agent'>Agent</option>
+	  <option value='ff'>Family/Friends</option>
+	  <option value= 'ws'>Website</option>
+	  <option value= 'embsy'>Embassy</option>
+	  <option value= 'sem'>Seminar/Exhibition</option>
+	  </select>
+	  </span>
+	  </div>
+
+	  <div id="row">
+	  <span style="float: left;">
+	  <span id="star" >* </span>If Agent, please type agent's name<br>
+  	  <input id="box" type="text" name="agent" >
+  	  </span>
+  	  </div>
+  	  </fieldset>
+
+  	  <fieldset>
+  	  	<legend>3. Visa Information</legend>
+	 	<hr>
+
+	 	<div id="row">
+	  <span style="float: left;">On what type of visa will you commence your course?<br>
+  	  <select id='biglist' >
+	  <option value= 'blank'></option>
+	  <option value= 'sv'>Student visa</option>
+	  <option value= 'esv'>Extension of Student visa</option>
+	  <option value= 'tv'>Tourist visa</option>
+	  <option value= 'whv'>Working Holiday visa</option>
+	  <option value= 'oth'>Other</option>
+	  </select>
+	  </span>
+	  </div>
+
+	  <div id="row">
+	  <span style="float: left;">At present are you:<br>
+  	  <select id='biglist'>
+	  <option value= 'blank'></option>
+	  <option value= 'hc'>Still in your home country</option>
+	  <option value= 'ca'>Already in Canada</option>
+	  </select>
+	  </span>
+	  </div>
+  	  </fieldset>
+
+  	  <fieldset>
+  	  	<legend>4. Airport Pick-up and Accommodation</legend>
+  	  	<p id="legsub">Please complete this section if you would like us to arrange your accommodation or would like to book an airport transfer.</p>
+	 	<hr>
+	 	<div id="row">
+	  <span style="float: left;">Do you require airport pickup?<br>
+  	  <select id='biglist'>
+	  <option value= 'blank'></option>
+	  <option value= 'yow'>Yes-One way</option>
+	  <option value= 'yr'>Yes-Return</option>
+	  <option value= 'no'>No</option>
+	  </select>
+	  </span>
+	  </div>
+
+	  <div id="row">
+	  <span style="float: left;">Do you want us to arrange accommodation for you?<br>
+  	  <select id='biglist'>
+	  <option value= 'blank'></option>
+	  <option value= 'y'>YES</option>
+	  <option value='no'>NO</option>
+	  </select>
+	  </span>
+	  </div>
+	  </fieldset>
+
+	  <fieldset>
+  	  	<legend>5. Medical Information</legend>
+  	  	<hr>
+	  <div id="row">
+	  <span style="float: left;line-height: 20px;">Do you suffer from any medical conditions?<br>
+	  <textarea id="txtarea" name="texara" rows="14" cols="49"></textarea>
+	  </span>
+	  </div>
+	  </fieldset>
+
+	  <fieldset>
+  	  	<legend>6. Care and Supervision</legend>
+  	  	<p id="legsub">All students under 18 years of age (If Vancouver 19 years of age)<br>must have an adult Guardian in canada.</p>
+	 	<hr>
+
+	 	<div id="row">
+	  <span style="float: left;">Are you over 18? (If Vancouver 19?)<br>
+  	  <select id='biglist'>
+	  <option value= 'blank'></option>
+	  <option value= 'y'>YES</option>
+	  <option value='no'>NO</option>
+	  </select>
+	  </span>
+	  </div>
+	  </fieldset>
+	  
+	  <hr>
+	  
+	  <fieldset>
+  	  	<legend>7. Homestay Preference</legend>
+  	  	<hr>
+
+  	  	<div id="row">
+	  <span style="float: left;">
+	  <span id="star" >* </span>How many weeks would you like to reserve your Homestay?<br>
+  	  <input id="box" type="text" name="agent" >
+  	  </span>
+  	  </div>
+
+  	  <div id="row">
+  	  <span style="float: left;">
+  	  <span id="star" >* </span>Will you accept children under age 12 in the home?<br>
+	  <input id="button" type="radio" name="yn" value="yes"> Yes<br>
+  	  <input id="button" type="radio" name="yn" value="no"> No
+  	  </span>
+  	  </div>
+
+  	  <div id="row">
+  	  <span style="float: left;">
+  	  <span id="star" >* </span>Will you accept a host with a dog?<br>
+	  <input id="button" type="radio" name="yn" value="yes" > Yes<br>
+  	  <input id="button" type="radio" name="yn" value="no"> No
+  	  </span>
+  	  </div>
+
+
+  	  <div id="row">
+  	  <span style="float: left;">
+  	  <span id="star" >* </span>Will you accept a host with a cat?<br>
+	  <input id="button" type="radio" name="yn" value="yes" > Yes<br>
+  	  <input id="button" type="radio" name="yn" value="no"> No
+  	  </span>
+  	  </div>
+
+  	  <div id="row">
+  	  <span style="float: left;">
+  	  <span id="star" >* </span>Do you have any medical conditions or allergies?<br>
+	  <input id="button" type="radio" name="yn" value="yes"> Yes<br>
+  	  <input id="button" type="radio" name="yn" value="no"> No
+  	  </span>
+  	  </div>
+
+  	  <div id="row">
+  	  <span style="float: left;">
+  	  <span id="star" >* </span>Do you have any dietary restrictions?<br>
+	  <input id="button" type="radio" name="yn" value="yes"> Yes<br>
+  	  <input id="button" type="radio" name="yn" value="no"> No
+  	  </span>
+  	  </div>
+
+  	  <div id="row">
+  	  <span style="float: left;">
+  	  <span id="star" >* </span>Do you smoke?<br>
+	  <input id="button" type="radio" name="yn" value="yes" > Yes<br>
+  	  <input id="button" type="radio" name="yn" value="no"> No
+  	  </span>
+  	  </div>
+
+  	  <div id="row">
+	  <span style="float: left;line-height: 20px;">Please tell your host about yourself in the space below:<br>
+	  <textarea id="txtarea" name="texara" rows="14" cols="49"></textarea>
+	  </span>
+	  </div>
+
+	  <div id="row">
+	  <span style="float: left;line-height: 20px;">Please list medical conditions, allergies and dietary restrictions in the<br>space below:<br>
+	  <textarea id="txtarea" name="texara" rows="14" cols="49"></textarea>
+	  </span>
+	  </div>
+	  </fieldset>
+
+	  <fieldset>
+  	  	<legend>8. Enrollment Declaration</legend>
+  	  	<p id="legsub">Note: If you do not read or understand English well, we strongly suggest you have an interpreter / translator explain this form prior to signing.</p>
+	 	<hr>
+
+	 	<div id="row">
+	  <span style="float: left;">
+	 	<input type="checkbox"> I agree to the <span id="termsofuse">Terms of Use</span> and <span id="privacy">Privacy Policy</span>
+	 	</span>
+	 	</div>
+	  <input id="submit" type="submit" name="submit">
+	  </fieldset>
+
+  	 </form>
+  	 </section>
+
+  	 <section id="pics">
+  	 <div id="leftpic"><img id="img2" src="/webpages/question/get.jpg" alt="banner" height="500" width="800"></div>
+  	 <div id="rightcont">
+  	 <h2>Ready to Get Started?</h2>
+  	 <p>We offer the largest network of<br>campus-based English language<br>instruction centers in the world.</p>
+  	 <p>
+  	 <form>
+  	 <input id="rightsubmit1" type="submit" value="START YOUR APPLICATION" onclick=window.open("/webpages/hotcourses/thankyou.html")>
+  	 <br><br>
+  	 <input id="rightsubmit1" type="submit" value="CONTACT A COUNSELOR" onclick=window.open("/webpages/hotcourses/thankyou.html")>
+  	 </form>
+  	 </p>
+  	 </div>
+  	 </section>
+
+  	
+  	 <footer>
+		<div id="foot1">
+		<span id=span1>
+		<ul id="ul1">
+		<li>DESTINATIONS & CENTERS</li>
+		</ul id="ul2s">
+		<ul id="ul2">
+		<li>United States</li>
+		<li>Australia</li>
+		<li>Canada</li>
+		<li>India</li>
+		<li>Malasia</li>
+		</ul>
+		</span>
+		
+		<span id="span2">
+		<ul id="ul1">
+		<li>ENGLISH PROGRAMS</li>
+		</ul>
+		<ul id="ul2">
+		<li>Academic English</li>
+		<li>General English</li>
+		<li>Business Communication</li>
+		<li>Youth Programs</li>
+		<li>Testing and Test Preparation<br>Programs</li>
+		</ul>
+		</span>
+
+		<span id="span3">
+		<ul id="ul1">
+		<li>ABOUT US</li>
+		</ul>
+		<ul id="ul2">
+		<li>Ask a Question</li>
+		<li>Careers</li>
+		<li>News</li>
+		</ul>
+		</span>
+
+		<span id="span4">
+		<ul id="ul1">
+		<li>PARTNER UNIVERSITIES</li>
+		</ul>
+		<ul id="ul2">
+		<li>UniversitySearch.com</li>
+		</ul>
+		</span>
+
+		<span id="span5">
+		<ul>
+		<li></li>
+		</ul>
+		</span>
+		</div>
+		<p><hr></p>
+		<div id="foot2">
+		<div id="footleft"><sup>&copy;</sup>Copyright 2017 ELS Educational Services, Inc., a <span id="comp">Berlitz company</span>
+	 </div>
+	 <div id="footright">
+	 <span id="acc">Accrediation</span>
+	 <span id="pp">Privacy Policy</span>
+	 <span id="trms">Terms</span>
+	 </div>
+	 </div>
+
+	</footer>
+	 </div>
+  	 </body>
+	</html>

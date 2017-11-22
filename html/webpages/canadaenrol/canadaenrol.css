@@ -1,0 +1,480 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#page
+{
+	margin:0 auto;
+	height: 7800px;
+	width: 1400px;
+
+}
+#header
+{
+	width:1400px;
+	height:125px;
+	background-color: #f2f2f0;
+	margin-top: 10px;
+	
+}
+#logo
+{
+	float: left;
+	width: 200px;
+	height: 125px;
+	margin-left: 30px;
+}
+#logo1
+{
+	padding-top: 10px;
+}
+#nav
+{
+	height: 125px;
+	width: 1100px;
+	margin-right: 10px;
+	float: left;
+	text-align: left;
+	padding-left: 50px;
+
+}
+
+#top
+{
+	padding-left: 200px;
+	padding-top: 20px;
+}
+#top1
+{
+	float: left;
+	padding-right: 50px;
+}
+
+select
+{
+	height: 30px;
+	width: 180px;
+	background-color: white;
+	font-family: "roboto";
+	font-size: 14px;
+	padding-left: 20px;
+
+}
+
+#top2 ul li
+{
+	list-style:none;
+	margin: auto;
+	float: left;
+	padding-right: 20px;
+	border-left: 1px solid grey;
+	padding-left: 10px;
+	font-family: "roboto";
+	font-weight: 300;
+	font-size: 14px;
+}
+
+#top2 ul li:hover
+{
+	color: #f68016;
+}
+#bottom
+{
+	padding-top: 30px;
+	width: 1000px;
+	height: 30px;
+	float: left;
+}
+
+
+#bottom ul li
+{
+	list-style:none;
+	margin: auto;
+	float: left;
+	padding-right: 20px;
+	font-family: "roboto";
+	font-weight: 600;
+	font-size: 16px;
+}
+
+#bottom ul li:hover
+{
+	color: #f68016;
+}
+
+#sec1
+{
+	height: 400px;
+	width: 1400px;
+}
+#sec1 #banner
+{
+	height: 400px;
+	width: 1400px;
+	position: absolute;
+	z-index: 1;
+}
+#sec1 #bannertop
+{
+	width: 1400px;
+	height: 200px;
+	position: relative;
+	z-index: 100;
+}
+#bannertop h1
+{
+	font-family: "roboto";
+	font-size: 60px;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+}
+#bannertop h3
+{
+	font-family: "roboto";
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+}
+
+#sec2
+{
+	width: 1400px;
+	height: 6730px;
+	position: relative;
+}
+
+#sec2 form
+{
+	width: 600px;
+	margin: auto;
+	height: 6730px;
+}
+#sec2 form span
+{
+	font-size: 18px;
+	font-family: "roboto";
+	color: #333;
+	font-weight: 400;
+}
+#sec2 form #star
+{
+	color: red;
+}
+#sec2 h1
+{
+	font-size: 80px;
+	font-weight: 600;
+	font-family: "roboto";
+	margin-top: 100px;
+	margin-bottom: 60px;
+	color: #333;
+	text-align: center;
+}
+#sec2 form fieldset
+{
+	border: none;
+
+}
+#sec2 form legend
+{
+	font-size: 30px;
+	font-weight: 500;
+	font-family: "roboto";
+	color: #333;
+	border: none;
+}
+hr
+{
+	border: 0.1px solid #eee;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 500px;
+}
+
+#row
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: "roboto";
+	font-size: 16px;
+	color: #333;
+	width: 600px;
+	height: 80px;
+}
+#star
+{
+	color: red;
+}
+#box
+{
+	width: 510px;
+	height: 50px;
+	margin-bottom: 30px;
+margin-top: 2px;
+}
+#box1
+{
+	width: 250px;
+	height: 50px;
+	float: left;
+	margin-bottom: 30px;
+	margin-top: 2px;
+	margin-right: 10px;
+}
+
+#list
+{
+	width: 250px;
+	height: 53px;
+	background-color: white;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	margin-top: 2px;
+}
+#biglist
+{
+	width: 510px;
+	height: 53px;
+	background-color: white;
+	margin-bottom: 30px;
+	margin-top: 4px;
+}
+#txtarea
+{
+	width: 510px;
+	height: 140px;
+	background-color: white;
+	margin-bottom: 30px;
+	margin-top: 5px;
+}
+#check
+{
+	margin-bottom: 20px;
+}
+
+#legsub
+{
+	margin-top: 10px;
+	font-family: "roboto";
+	font-size: 18px;
+	color: #333;
+	font-weight: 400;
+}
+
+#button
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#submit
+{
+	width: 250px;
+	height: 60px;
+	background-color: #00a5df;
+	border-radius: 3px;
+	color: white;
+	margin-left: 80px;
+	font-family: "roboto";
+	font-size: 20px;
+	border: none;
+}
+#termsofuse,#privacy
+{
+	color: #00a5df;
+	font-weight: 400;
+}
+#termsofuse:hover
+{
+	text-decoration: underline;
+}
+#privacy:hover
+{
+	text-decoration: underline;
+}
+#submit:hover
+{
+	background-color: white;
+	color: #00a5df;
+	border: 1px solid #00a5df;	
+}
+
+
+#pics
+{
+	width: 1400px;
+	height: 500px;
+}
+#leftpic
+{
+	float: left;
+	width: 800px;
+}
+#rightcont
+{
+	float: right;
+	width: 550px;
+	height: 500px;
+	background-color: #00a5df;
+	color: white;
+	margin-left: 20px;
+}
+#rightcont h2
+{
+	font-family: "roboto";
+	font-size: 40px;
+	font-weight: 500;
+	margin-top: 50px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+#rightcont p
+{
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+	font-family: "roboto";
+	font-size: 20px;
+	font-weight: 500;
+}
+#rightcont form
+{
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+#rightsubmit1
+{
+	width: 320px;
+	height: 60px;
+	background-color: #171d23;
+	margin-top: 10px;
+	color: white;
+	margin-bottom: 10px;
+	border: none;
+	font-family: "roboto";
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+footer
+{
+background-color: #f2f2f0;
+height: 330px;
+width: 1400px;
+font-family: "roboto";
+position: relative;
+float: left;
+margin-top: 10px;
+
+}
+footer ul li
+{
+	list-style: none;
+	margin-bottom: 10px;
+
+}
+footer ul
+{
+	margin-bottom: 20px;
+}
+
+#foot1
+{
+	height: 250px;
+}
+#span1,#span2,#span3,#span4,#span5
+{
+	float: left;
+	height: 200px;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+#ul1
+{
+	color: #000;
+	font-weight: 600;
+	
+}
+
+#ul2 li:hover
+{
+	text-decoration: underline;
+}
+#ul1:hover
+{
+	color: #f68016;
+	text-decoration: none;
+}
+
+footer hr
+{
+	border:0.1px solid #eee;
+	margin: 10px 40px;
+}
+#foot2
+{
+	height: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+#footleft
+{
+	float: left;
+	width: 700px;
+	height: 40px;
+	background-color: #f2f2f0;
+	padding-top: 20px;
+	font-family: "roboto";
+	font-size:12px;
+	font-weight: 300;
+
+}
+#comp
+{
+	color: #00a5df;
+	font-weight: 400;
+}
+#comp:hover
+{
+	text-decoration: underline;
+}
+
+#footright
+{
+	float: right;
+	width: 600px;
+	height: 40px;
+	text-align: right;
+	background-color: #f2f2f0;
+	padding-top: 20px;
+	font-family: "roboto";
+	font-size:14px;
+	font-weight: 400;
+}
+#pp,#acc,#trms
+{
+	padding-left: 20px;
+	padding-right: 10px;
+}
+#pp:hover
+{
+	text-decoration: underline;
+}
+#acc:hover
+{
+	text-decoration: underline;
+
+}
+#trms:hover
+{
+	text-decoration: underline;
+}
