@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>new form</title>
+<link rel="stylesheet" href="/webpages/new/new.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+
+<script>
+function validateForm(event) {
+
+    var phone = document.getElementById("phone").value,
+    email = document.getElementById("email").value,
+    fname = document.getElementById("fname").value,
+    lname=document.getElementById("lname").value,
+    gender=document.getElementById("fon").value,
+    selected=document.getElementById("list").value,
+    tomatch = /^\d{3}-\d{3}-\d{4}$/,
+    emailMatch =/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+    errors = [];
+
+    if (!phone){
+      errors.push("The Phone Number is required.");
+    } else if (!tomatch.test(phone)){
+      errors.push("The phone number must be formated as follows: XXX-XXX-XXXX.");
+    }
+
+    if (!fname){
+      errors.push("Enter your first name");
+    }
+
+    if (!lname){
+      errors.push("Enter your last name");
+    }
+    if (!selected){
+      errors.push("Please select your state");
+    }
+    if (!email){
+      errors.push("The email is required.");
+    } else if (!emailMatch.test(email)){
+      errors.push("The email must be formated as follows: name@domain.com.");
+    }
+
+
+    if (errors.length) {
+      event.preventDefault();
+      alert(errors.join("\n"));
+    }
+
+}
+</script>
+
+</head>
+
+<body>
+<div id="header">
+		<div id="left"> <img id="rio" src="/reviewtask/rio.png" alt="Rio olympics logo"></div>
+		<div id="right"><span id="rght">Rio Olympics</span></div>
+	</div>
+
+<div id="menubar">
+	<ul>
+		<li>OLYMPICS
+			<ul>
+				<li>2012</li>
+				<li>2008</li>
+				<li>2004</li>
+			</ul>
+		</li>
+		<li>SPORTS</li>
+		<li>ATHLETES</li>
+		<li>COUNTRIES
+			<ul>
+				<li>USA</li>
+				<li>BRAZIL</li>
+				<li>ITALY</li>
+				<li>INDIA
+					<ul>
+						<li>EVENTS</li>
+						<li>WON</li>
+						<li>LOST</li>
+					</ul>
+				</li>
+				<li>GERMANY</li>
+				<li>FRANCE</li>
+				<li>CHINA</li>
+				<li>JAPAN</li>
+				<li>OTHERS</li>
+			</ul>
+		</li>
+		<li> <a href="/reviewtask/results.html" style="color: white;text-decoration: none;">RESULTS</a></li>
+		<li> <a href=/reviewtask/photos.html style="color:white;text-decoration:none;">PHOTOS</a></li>
+		<li>VIDEOS</li>
+		<li>ABOUT</li>
+	</ul>
+</div>
+
+<p id="frm">
+<form method="POST" id="form1" onSubmit="validateForm(event)">
+<div id="form">	
+<h2 >Sign Up Now to get more updates</h2>
+
+<input id="fname" type="text" placeholder="First Name*" name="fname" maxlength="50" size="30">
+<br><br>
+<input id="lname" type="text" placeholder="Last Name*" name="lname" maxlength="50" size="30">
+<br><br>
+	  <span id="fon">Gender</span>
+	  <input id="button" type="radio" name="gender" value="male" required="Please select your gender"><span id="fon">Male</span>
+  	  <input id="button" type="radio" name="gender" value="female"><span id="fon">Female</span><br>
+  	  <br>
+<br><br>
+
+<script type="text/javascript">
+function gender(){
+if ( ( form.gender[0].checked == false ) && ( form.gender[1].checked == false ) ) { alert ( "Please choose your Gender: Male or Female" ); return false; }
+}
+</script>
+
+
+<input id="phone" type="text" placeholder="Phone Number*" name="Mobile Number" maxlength="30" size="30">
+<br><br>
+<input id="email" type="email" placeholder="Your email*" name="Email address" maxlength="80" size="30">
+<br><br>
+
+ 
+ <select  name="state" id="list" placeholder="select your state">
+<option value="">select your state</option>
+<option>Andaman and Nicobar Islands</option>
+<option>Andhra Pradesh</option>
+<option>Arunachal pradesh</option>
+<option>Assam</option>
+<option>Bihar</option>
+<option>Chandigarh</option>
+<option>Chhattisgarh</option>
+<option>Dedra and Nagar Haveli</option>
+<option>Delhi and NCR</option>
+<option>Goa</option>
+<option>Gujarat</option>
+<option>Haryana</option>
+<option>Himachal Pradesh</option>
+<option>Jammu and Kashmir</option>
+<option>Jharkand</option>
+<option>Karnataka</option>
+<option>Kerala</option>
+<option>Madhya Pradesh</option>
+<option>Maharashtra</option>
+<option>Manipur</option>
+<option>Meghalaya</option>
+<option>Mizoram</option>
+<option>Nagaland</option>
+<option>Orissa</option>
+<option>Pondicherry</option>
+<option>Punjab</option>
+<option>Rajasthan</option>
+<option>Sikkim</option>
+<option>TamilNadu</option>
+<option>Telangana</option>
+<option>Tripura</option>
+<option>Uttar Pradesh</option>
+<option>Uttaranchal</option>
+<option>West Bengal</option>
+</select>
+<br><br>
+<input  id="submit" type="Submit" value="Submit" name="Submit" text-align="center">
+
+</div>
+</form>
+</p>
+
+<div id="footer">Copyright 2017 © Rio. All Rights Reserved.</div>
+</body>
+</html>
