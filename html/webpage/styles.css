@@ -1,0 +1,150 @@
+.headr
+{background-image:url(/webpage/images/lib.jpg); 
+	height:600px;
+}
+
+.study
+{
+	font-size:30px; 
+	color:orange
+}
+
+.points
+{
+	list-style-type:square;font-size:20px; 
+	color:white;
+}
+
+#form
+{
+	background-color: #023;
+    font-family:  "Open Sans";
+    padding-left: 25px;
+   padding-right: 25px;
+    padding-bottom: 30px;
+    float: right;
+
+}
+
+
+#imgs
+{
+	background-color:white
+
+}	
+
+#h2
+{
+	font-size:30px
+}
+
+#img1,#img2,#img3,#img4
+{
+	border:solid black;padding:25px;
+	margin-bottom:20px
+}
+
+#pics
+{
+	div.align:center
+	background-color:#0099cc;
+	background-image:url(/webpage/images/us.jpg); 
+	height:400px;
+}
+
+#img5
+{
+	height:200px
+}
+#img6,#img7,#img8,#img9
+{
+	border-left:solid;
+	height:200px
+}
+
+#lists
+{
+	background-color:white;
+	font-size:20px;
+	font-family:sans-serif; 
+	font-style: normal; 
+	font-weight: normal;
+}
+
+
+#right
+{
+	float:right
+}
+
+#through
+{
+	background-color:orange;
+	font-size:30px;
+	padding-top:5%;
+}
+
+#white1,#white2,#white3
+{
+	color:white
+}
+
+#black1,#black2
+{
+	font-size:45px; 
+	font-style:bold
+}
+
+#talk
+{
+	font-size:30px
+}
+
+#brdr
+{
+	border-bottom-style:dotted
+}
+
+#imgs10,#imgs11,#imgs12,#imgs13
+{
+	float: left;
+	font-size: 12pt; 
+	text-align: center;
+	width: 25%;
+	margin-right: 0%; 
+	margin-bottom: 0.5em;
+}
+
+#img10,#img11,#img12,#img13
+{
+	width: 50%;
+}
+
+#prtnrs
+{
+	background-color:orange;
+}
+#opp
+{
+	font-size:30px;
+	color:white;
+}
+
+#img14,#img15
+{
+	border:1px solid bold black;
+	margin-right:sssss20px;
+}
+
+#fotr
+{
+	background-color:teal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+#ftr{
+	color:white;
+
+}
